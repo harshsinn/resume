@@ -101,16 +101,12 @@ let resumeButton = document.getElementById('resume-button')
 // Html2pdf options
 let opt = {
     margin:       1,
-    filename:     'Harsh Resume23.pdf',
+    filename:     "Harsh's Resume Jun23.pdf",
     image:        { type: 'png', quality: 0.98 },
-    html2canvas:  { scale: 4 },
-    jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+    html2canvas:  { useCORS: true, scale: 4 },
+    jsPDF:        { unit: 'cm', format: 'a4', orientation: 'portrait' }
   }
 
-// Function to call areaCv and Html2Pdf options 
-function generateResume() {
-    
-}
 
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', ()=>{
@@ -121,7 +117,7 @@ resumeButton.addEventListener('click', ()=>{
     html2pdf(areaCV, opt)
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    setTimeout(removeScaleCV, 5000)
+    // setTimeout(removeScaleCV, 2000)
 })
     
 
