@@ -138,7 +138,7 @@ body.scale-cv {
 
 .scale-cv .home_data {
   gap: .25rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 
 .scale-cv .home_address,
@@ -157,8 +157,6 @@ body.scale-cv {
 .scale-cv .certificate_container {
   gap: 1rem;
 }
-
-
 
 .scale-cv .education_time,
 .scale-cv .exp_time {
@@ -185,7 +183,7 @@ body.scale-cv {
 }
 
 .scale-cv .exp_desc {
-  margin-bottom: .6rem;
+  margin-bottom: .8rem;
 }
 
 .scale-cv .skills_name {
@@ -195,7 +193,6 @@ body.scale-cv {
 .scale-cv .interests_container {
   column-gap: 2.5rem;
 }
-
 
 body {
   margin: 0 0 var(--header-height);
@@ -494,7 +491,6 @@ img {
 
 .project_title {
   font-size: var(--h3-font-size);
-  margin-bottom: .8rem;
 }
 
 .project_desc {
@@ -536,7 +532,6 @@ img {
 
 .certificate_title {
   font-size: var(--h3-font-size);
-  margin-bottom: .8rem;
 }
 
 .certificate_sub {
